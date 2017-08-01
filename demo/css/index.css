@@ -1,4 +1,4 @@
-/***** section1 ªºª©«¬ *****/
+/***** section1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ *****/
 
 #section1 {
     height: 100vh;
@@ -11,57 +11,37 @@
 }
 
 #section1 h1 {
-    /* ³]©w¦r«¬ */
+    /* ï¿½]ï¿½wï¿½rï¿½ï¿½ */
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: orange;
     text-align: center;
-    font-size: 4em;
-    /* °Êµe©µ¿ð®É¶¡¡B«ùÄò®É¶¡ */
-    animation-delay: 1s;
-    animation-duration: 2s;
+    font-size: 6em;
+    /* ï¿½Êµeï¿½ï¿½ï¿½ï¿½É¶ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½É¶ï¿½ */
+    animation-delay: 0s;
+    animation-duration: 0s;
 }
 
 pre {
-    color: white;
-    font-size: 1.5em;
-    animation-delay: 2s;
-    animation-duration: 3s;
+    color: blanchedalmond;
+    font-size: 2em;
+    animation-delay: 0s;
+    animation-duration: 0s;
     background-color: rgba(241, 234, 39, 0.48);
-    font-family:Microsoft JhengHei;
+    font-family: Microsoft JhengHei;
     padding-left: 25px;
 }
 
-.button1 {
-    text-align: center;
-    margin-top: 2em;
-}
 
-.button1 button {
-    background-color: rgba(255, 255, 255, 0.31);
-    border-color: rgba(255, 255, 255, 0.31);
-    /* ·Æ¹««ü¼Ð */
-    cursor: pointer;
-    /* °Êµe©µ¿ð®É¶¡¡B«ùÄò®É¶¡ */
-    animation-delay: 3s;
-    animation-duration: 2s;
-}
-
-.button1 button:hover {
-    background-color: rgb(110, 84, 70);
-    border-color: rgb(110, 84, 70);
-}
-
-
-/***** section2 ªºª©«¬ *****/
+/***** section2 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ *****/
 
 #section2 {
-    height: 100vh;
-    background-color: #ffe5b4;
+    height: 60vh;
+    background-color: #ffb4ce;
     background-size: cover;
 }
 
 h2 {
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .jumbotron {
@@ -92,7 +72,7 @@ h2 {
 .block {
     margin-top: 3em;
     width: 10%;
-    /*¤@­Ó°Ï¶ô¤@­Ófloat*/
+    /*ï¿½@ï¿½Ó°Ï¶ï¿½@ï¿½ï¿½float*/
     float: left;
     /* height: 500px; */
 }
