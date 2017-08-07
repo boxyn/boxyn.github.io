@@ -21,28 +21,22 @@ $('#insert').on('click', function() {
 })
 
 $('#query').on('click', function() {
-            $.get("http://js2017-hw2.kchen.club/query", function(response) {
-                if (response) {
-                    if (response.result) {
+    $.get("http://js2017-hw2.kchen.club/query", function(response) {
+        if (response) {
+            if (response.result) {
 
-                        // TODO HW2 作業寫在這裡
+                // TODO HW2 作業寫在這裡
+                $('.thumb').attr(response.data[1]['image'])
+                $('.title').text(response.data[1]['name'])
+            } else {
+                $('#message').text('查詢失敗 (' + response.data + ')');
+                $('#dialog').modal('show');
+            }
+        } else {
+            $('#message').text('查詢失敗');
+            $('#dialog').modal('show');
+        }
 
-                        $.get("http://js2017-hw2.kchen.club/query", function(response) {
-                            console.log(rep.data[0].name)
-                        })
-
-                        $.get("http://js2017-hw2.kchen.club/query", function(response) {
-                                console.log(rep.data[0].price)
-
-                            } else {
-                                $('#message').text('查詢失敗 (' + response.data + ')');
-                                $('#dialog').modal('show');
-                            }
-                        }
-                        else {
-                            $('#message').text('查詢失敗');
-                            $('#dialog').modal('show');
-                        }
-                        console.log(response);
-                    }, "json");
-            })
+        console.log(response);
+    }, "json");
+})
